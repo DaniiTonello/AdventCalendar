@@ -1,0 +1,33 @@
+body {
+  background-image: url(./fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container .container_list {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(30 120 39 / 64%);
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.container_list .title {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
+
+.container_list .list {
+  font-size: 20px;
+  list-style: disc;
+}

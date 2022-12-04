@@ -1,0 +1,56 @@
+body {
+  background-image: url(./fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container .container_list {
+  width: 300px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.79);
+  color: rgb(167, 13, 13);
+  font-family: sans-serif;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.inputAdd {
+  border-radius: 3px;
+  height: 30px;
+  border: 1px solid rgba(205, 11, 11, 0.751);
+}
+
+.buttonAdd {
+  background-color: rgb(209, 23, 23);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 8px;
+}
+
+.buttonAdd:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.buttonAdd:active {
+  background-color: rgb(254, 103, 103);
+}
+
+.container_list .title {
+  font-family: "Great Vibes", cursive;
+  font-size: 40px;
+}
+
+.container_list .list {
+  font-size: 20px;
+  list-style: disc;
+  text-align: start;
+}
