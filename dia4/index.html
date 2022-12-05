@@ -18,15 +18,27 @@
       <div class="container_list">
         <h2 class="title">Regalos:</h2>
         <form action="">
-          <input class="inputAdd" type="text" />
-          <button class="buttonAdd" type="submit">Agregar</button>
+          <input id="input" class="inputAdd" type="text" />
+          <button id="buttonAdd" class="buttonAdd" type="submit">
+            Agregar
+          </button>
         </form>
-        <ul class="list">
-          <li class="element">Vestido</li>
-          <li class="element">Zapatos</li>
-          <li class="element">Libros</li>
-        </ul>
+        <div id="list" class="list">
+          <div class="element">
+            <p>Vestido</p>
+            <button id="delete" class="buttonDelete">X</button>
+          </div>
+          <div class="element">
+            <p>Zapatos</p>
+            <button id="delete" class="buttonDelete">X</button>
+          </div>
+          <div class="element">
+            <p>Libros</p>
+            <button id="delete" class="buttonDelete">X</button>
+          </div>
+        </div>
       </div>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

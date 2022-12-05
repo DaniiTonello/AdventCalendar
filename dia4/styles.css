@@ -23,7 +23,7 @@ body {
 }
 
 .inputAdd {
-  border-radius: 3px;
+  border-radius: 5px;
   height: 30px;
   border: 1px solid rgba(205, 11, 11, 0.751);
 }
@@ -51,6 +51,32 @@ body {
 
 .container_list .list {
   font-size: 20px;
-  list-style: disc;
+  list-style: none;
   text-align: start;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  max-height: 40px;
+  padding: 3px;
+}
+
+.buttonDelete {
+  background-color: rgb(209, 23, 23);
+  border: none;
+  color: whitesmoke;
+  padding: 8px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.buttonDelete:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.buttonDelete:active {
+  background-color: rgb(254, 103, 103);
 }
